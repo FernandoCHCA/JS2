@@ -1,10 +1,10 @@
 let apps = ['win10','vscode','oracle']
 
 let computadora = {
-    "marca":"",
+    "Marca":"",
     "Discoduro":"1tb",
-    "precio":1200,
-    "softwareinstalado":apps
+    "Precio":1200,
+    "SoftwareInstalado":apps
 }
 
 let alumno =["Mario","Luis"];
@@ -24,7 +24,7 @@ console.log(alumno[alumno.length-1]);
 console.log(typeof alumno)
 
 let grupo51 = {
-    "nombre":"grupo51",
+    "nombre":"Grupo51",
     "Semestre":5,
     "Carrera":"LTI",
     "alumnos":alumno
@@ -72,24 +72,24 @@ document.write(`<ul>
     sentencia
 } */
 
-let estadoCivil = "Casado";
+let estadoCivil = "Soltero";
 
 switch (estadoCivil){
-    case "soltero":
+    case "Soltero":
         /* Sentencia */
-        console.log("hola1")
+        console.log("Estas soltero")
         break;
     case "Casado":
         /* Sentencia */
-        console.log("hola2")
+        console.log("Estas casado")
         break;
     case "Viudo":
         /* Sentencia */
-        console.log("hola3")
+        console.log("Estas viudo")
         break;
     default:
         /* Sentencia */
-        console.log("hola4")
+        console.log("No tienes ningun estado civil")
         break;
 }
 
@@ -122,16 +122,13 @@ if(calif >= 95 && calif<=100){
 }
 
 let horasTrabajadas = 41;
-
 let pagoXHora = 10;
-
 let horasExtra = 0
-
 let totalAPagar= 0
 
 if(horasTrabajadas >40){
     horasExtra = horasTrabajadas - 40
-}
-totalAPagar = pagoXHora * (horasTrabajadas-horasExtra) + pagoXHora*3*horasExtra
+};
 
-console.log(totalAPagar)
+totalAPagar = pagoXHora * (horasTrabajadas-horasExtra) + pagoXHora*3*horasExtra;
+console.log(totalAPagar);
